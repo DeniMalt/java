@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Lab {
     public static List<Integer> list = new ArrayList<Integer>();
-    public static List<Integer> validated_list = new ArrayList<Integer>();
 
     public static void enterList()
     {
