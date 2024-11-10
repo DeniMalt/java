@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Lab {
+public class Task5 {
     public static List<Integer> list = new ArrayList<Integer>();
 
     public static void enterList()
