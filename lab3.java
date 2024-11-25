@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Task5 {
-    public static List<Integer> list = new ArrayList<Integer>();
+    public static List<Integer> list = new ArrayList<>();
 
     public static void enterList()
     {
