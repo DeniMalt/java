@@ -15,9 +15,9 @@ public class Task10 {
             for (char c : char_array) {
                 if (Character.isLetter(c)) {
                     if (isConsonant(c)) {
-                        hashmap_of_letters.compute("consonant", (key, val) -> val + 1);
+                        hashmap_of_letters.compute("consonant", (_, val) -> val + 1);
                     } else if (isVowel(c)) {
-                        hashmap_of_letters.compute("vowel", (key, val) -> val + 1);
+                        hashmap_of_letters.compute("vowel", (_, val) -> val + 1);
                     }
                 }
             }
