@@ -41,7 +41,7 @@ public class ClockPanel extends JPanel {
 
     private Clock clock;
 
-    public ClockPanel(Clock clock) {
+    private ClockPanel(Clock clock) {
         setDoubleBuffered(true);
         setPreferredSize(new Dimension(600, 400));
         setClock(clock);
@@ -89,11 +89,11 @@ public class ClockPanel extends JPanel {
         g.drawLine(O.x, O.y, point.x, point.y);
     }
 
-    public Clock getClock() {
+    private Clock getClock() {
         return clock;
     }
 
-    public void setClock(Clock clock) {
+    private void setClock(Clock clock) {
         this.clock = clock;
     }
 
