@@ -2,7 +2,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Scanner;
 
-public class URLValidator {
+public class lab2 {
 
     private static final String URL_REGEX = "^(https?://)?(?!-)([a-zA-Z]{2,}(?:\\.[a-zA-Z]{2,})+)(:[0-9]{1,5})?(/\\S*)?(#\\S*)?$";
 
